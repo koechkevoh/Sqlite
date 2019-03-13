@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoginEmployee</string>
+    <string name="insert">Insert</string>
+    <string name="read">Read</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="register">Login</string>
+    <string name="insert2">Insert Data</string>
+    <string name="deleteRecord">Delete Record</string>
+    <string name="back">Back</string>
+
+</resources>

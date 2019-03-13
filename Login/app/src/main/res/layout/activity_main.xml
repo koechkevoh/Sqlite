@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:padding="16dp"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/id"
+        android:layout_height="30dp"
+        android:hint="Id"
+        android:inputType="number"
+        android:errorEnabled="true"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edittext_rounded"
+        android:drawablePadding="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/id"
+        android:id="@+id/establishment"
+        android:layout_height="30dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:errorEnabled="true"
+        android:background="@drawable/edittext_rounded"
+        android:drawablePadding="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@id/establishment"
+        android:id="@+id/type"
+        android:layout_height="30dp"
+        android:hint="Type of establishment"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+        android:errorEnabled="true"
+        android:background="@drawable/edittext_rounded"
+        android:drawablePadding="10dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@id/type"
+        android:id="@+id/food"
+        android:layout_height="30dp"
+        android:hint="Food"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+        android:background="@drawable/edittext_rounded"
+        android:drawablePadding="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@id/food"
+        android:id="@+id/location"
+        android:layout_height="30dp"
+        android:hint="Location"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+        android:background="@drawable/edittext_rounded"
+        android:drawablePadding="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@id/location"
+        android:id="@+id/hours"
+        android:layout_height="30dp"
+        android:hint="Opening hours"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="20dp"
+        android:inputType="number"
+        android:background="@drawable/edittext_rounded"
+        android:drawablePadding="10dp"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/confirm"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hours"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_rounded"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/bg2"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/edit_round"
+        android:layout_height="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="20dp"
+        android:drawablePadding="10dp"
+        android:hint="Id"
+        android:inputType="number"
+        android:id="@+id/idUpdate"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/edit_round"
+        android:layout_height="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/idUpdate"
+        android:paddingLeft="20dp"
+        android:drawablePadding="10dp"
+        android:hint="First Name"
+        android:inputType="text"
+        android:id="@+id/fnameUpdate"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="20dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edit_round"
+        android:layout_height="40dp"
+        android:hint="Second Name"
+        android:inputType="text"
+        android:id="@+id/snameUpdate"
+        android:layout_below="@id/fnameUpdate"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/edit_round"
+        android:paddingLeft="20dp"
+        android:drawablePadding="10dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailUpdate"
+        android:layout_below="@id/snameUpdate"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/edit_round"
+        android:paddingLeft="20dp"
+        android:drawablePadding="10dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Enter Employee No"
+        android:inputType="number"
+        android:id="@+id/empNoUpdate"
+        android:layout_below="@id/emailUpdate"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/edit_round"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="20dp"
+        android:drawablePadding="10dp"
+        android:hint="Salary"
+        android:inputType="number"
+        android:id="@+id/salooUpdate"
+        android:layout_below="@id/empNoUpdate"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/button_round"
+        android:text="@string/update"
+        android:layout_marginTop="450dp"
+        android:id="@+id/btnUpdate1" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="200dp"
+        android:background="@drawable/button_round"
+        android:text="@string/back"
+        android:layout_marginTop="450dp"
+        android:id="@+id/btnUpdate2"/>
+
+
+
+</RelativeLayout>
